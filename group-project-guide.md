@@ -1,0 +1,101 @@
+# Group Project Setup Guide
+
+This guide provides instructions for creating a group repository on GitHub, cloning it to your local machine using Visual Studio Code (VSCode), and managing push and pull operations with your group members. The instructions are applicable for both Windows and macOS.
+
+## Step 1: Create a Group Repository on GitHub
+
+1. **Sign in to GitHub:**
+   - Go to [GitHub](https://github.com/) and sign in.
+
+2. **Create a New Repository:**
+   - Click the "+" icon in the upper right corner, select "New repository."
+   - Name your repository (e.g., `group-project`).
+   - Choose "Public" or "Private."
+   - Check "Initialize this repository with a README."
+   - Click "Create repository."
+
+3. **Add Collaborators:**
+   - Go to the repository page, click "Settings."
+   - In the left sidebar, click "Manage access."
+   - Click "Invite a collaborator" and enter the usernames or emails of your group members.
+
+## Step 2: Clone the Repository to Your Local Machine Using VSCode
+
+### Windows and macOS
+
+1. **Install Git:**
+   - Download and install Git from [git-scm.com](https://git-scm.com/) (Windows) or use Homebrew (`brew install git`) on macOS.
+
+2. **Open VSCode and Clone Repository:**
+   - Open VSCode.
+   - Open the terminal (`Ctrl + ` or `View > Terminal`).
+   - Run:
+     ```sh
+     git clone https://github.com/YOUR-USERNAME/group-project.git
+     ```
+   - Replace `YOUR-USERNAME` and `group-project` with your GitHub username and repo name.
+
+3. **Open Cloned Repository:**
+   - In VSCode, go to `File > Open Folder` and select the cloned folder.
+
+## Step 3: Push and Pull to the Repository with Group Members
+
+1. **Configure Git:**
+   - In the terminal, run:
+     ```sh
+     git config --global user.name "Your Name"
+     git config --global user.email "your-email@example.com"
+     ```
+
+2. **Branching (Optional for Collaboration):**
+   - Create a branch:
+     ```sh
+     git checkout -b feature-branch
+     ```
+
+3. **Make Changes, Commit, and Push:**
+   - Stage changes:
+     ```sh
+     git add .
+     ```
+   - Commit changes:
+     ```sh
+     git commit -m "Your commit message"
+     ```
+   - Push changes:
+     ```sh
+     git push origin feature-branch
+     ```
+
+4. **Pull Latest Changes:**
+   - To pull changes:
+     ```sh
+     git pull origin main
+     ```
+
+5. **Merging Branches:**
+   - Switch to the main branch and merge:
+     ```sh
+     git checkout main
+     git pull origin main
+     git merge feature-branch
+     git push origin main
+     ```
+
+## Summary of Key Commands
+
+- `git clone https://github.com/YOUR-USERNAME/group-project.git`
+- `git checkout -b feature-branch`
+- `git add .`
+- `git commit -m "Your commit message"`
+- `git push origin feature-branch`
+- `git pull origin main`
+- `git merge feature-branch`
+
+---
+
+This guide ensures efficient group project collaboration in 2024 using GitHub and VSCode on both Windows and macOS.
+
+A special thank you to all the mentors and volunteers who made this TNO Community possible and accessible to all participants.
+
+© 2024 Thomas Calle. Confidential and Proprietary. All Rights Reserved.
