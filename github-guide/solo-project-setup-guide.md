@@ -1,4 +1,4 @@
-# Solo Project Setup Guide
+# 📖 Solo Project Setup Guide
 
 This guide provides instructions for creating a repository on GitHub, cloning it to your local machine using Visual Studio Code (VSCode), and managing push and pull operations. The instructions are applicable for both Windows and macOS.
 

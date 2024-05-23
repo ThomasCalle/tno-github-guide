@@ -1,4 +1,4 @@
-## Git Cloning Guide
+# 📖 Git Cloning Guide
 
 This guide is designed for users with Git and Homebrew already installed. If you need installation instructions, please refer to the main README.md file's installation section.
 

@@ -1,4 +1,4 @@
-# Group Project Setup Guide
+# 📖 Group Project Setup Guide
 
 This guide provides instructions for creating a group repository on GitHub, cloning it to your local machine using Visual Studio Code (VSCode), and managing push and pull operations with your group members. The instructions are applicable for both Windows and macOS.
 
